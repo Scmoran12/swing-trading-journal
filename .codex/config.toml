@@ -1,0 +1,29 @@
+[features]
+multi_agent = true
+
+[agents]
+max_threads = 6
+
+[agents.senior_product_manager]
+description = "Senior Product Manager: Own product discovery, prioritization, requirements, and measurable outcomes."
+config_file = "agents/senior_product_manager.toml"
+
+[agents.ux_ui_designer]
+description = "UX/UI Designer: Design accessible trading journal workflows, interfaces, and visual systems."
+config_file = "agents/ux_ui_designer.toml"
+
+[agents.full_stack_architect_developer]
+description = "Full Stack Architect & Developer: Design and implement reliable frontend, backend, data models, and integrations."
+config_file = "agents/full_stack_architect_developer.toml"
+
+[agents.quantitative_swing_trading_analyst]
+description = "Quantitative Swing Trading Analyst: Define and validate trading metrics, research methods, and risk analysis."
+config_file = "agents/quantitative_swing_trading_analyst.toml"
+
+[agents.ai_engineer]
+description = "AI Engineer: Build and evaluate grounded AI features for journal analysis and trader reflection."
+config_file = "agents/ai_engineer.toml"
+
+[agents.qa_automation_engineer]
+description = "QA Automation Engineer: Verify critical workflows, financial correctness, and regression protection."
+config_file = "agents/qa_automation_engineer.toml"
