@@ -109,6 +109,8 @@ Initial analytics integration attempt stopped on malformed synthetic fee'.3'; fi
 | Protected readiness/version | PASSED_CLOUD_ONLY | Owner/no-store/DB checks/sanitized output/darkRTL and source-version metadata; always ACCEPTANCE_PENDING regardless of local PASS. |
 | Regression | PASSED_CLOUD_ONLY | Production build/TypeScript;65 units; PG15+9+8+19+9+10+12=82; HTTP15; preservedPython11. No skipped/failed cloud cases. Node parents included. |
 | Actual Windows/native/recovery | UNRUN/BLOCKED/DEFERRED | No new OS/browser/ACL/model/data/billing/scheduling/receipt/phone evidence; backup/drive untouched. |
-| GitHub latest source | AUTHORIZED_PENDING_REMOTE_VERIFICATION | Existing public main history inspected; source-only update, exact remote result recorded after push. No public website deployment. |
+| GitHub latest source | PUBLISHED_VERIFIED | main application commit41d7e90, exact remote tree213b3c2120c693abe302d375198a0cd92625775b fetched and compared. Prior history/agents preserved, no forced update or public website deployment. |
 
 Full Phase8/overall release stays incompletely accepted. Zero later numbered development phases remain; next milestone actual Windows acceptance and resolution of earlier gates. Source-version/build tracing issue fixed; no dependency/migration changes or new audit claim.
+
+Verified application source commit: [41d7e90ef09537be3dbd5eac48f9efe412b8989a](https://github.com/Scmoran12/swing-trading-journal/commit/41d7e90ef09537be3dbd5eac48f9efe412b8989a). The connected GitHub account published through a non-forced, expected-head branch update because the local CLI credential was unusable. Subsequent documentation-only publication evidence does not change tested application code. Working source/private artifact checks passed; six agent definitions remain unchanged.

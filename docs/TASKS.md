@@ -10,12 +10,12 @@ Revision2, updated17 October2026. User authorized Phase8 continuation and GitHub
 | P8-M2 protected readiness | IMPLEMENTED_HTTP_TESTED | Actual DB metadata plus conservative separate pending gates; no acceptance toggle/native activation. |
 | P8-M3 local hardening | IMPLEMENTED_CLOUD_TESTED | Role/host/port/name separation, no missing-test fallback, resolved private storage root, consistent version and source ignores. |
 | P8-M4 runbooks/update artifact | IMPLEMENTED | PHASE8_WINDOWS/LOCAL_RUNBOOK; no data downgrade, backup or automatic retention action. |
-| P8-M5 GitHub publication | AUTHORIZED_PENDING_REMOTE_VERIFICATION | Source-only commit/push after review, preserve remote history/agents and verify remote tree. |
+| P8-M5 GitHub publication | PUBLISHED_VERIFIED | main application commit41d7e90; fetched remote tree exactly matches verified source. Prior main history/six agents preserved; no forced update. |
 | Actual Windows/browser/native/device | PENDING/BLOCKED | Latest Windows report is automatedv0.2 only. No new entitlement/price/usage/schedule/receipt proof. |
 | Backup/restore/64GB drive | DEFERRED_UNVERIFIED | Explicit user deferral remains; untouched and not a passing release gate. |
 | Full Phase8/release | ACCEPTANCE_PENDING | Zero later numbered phases; remaining work is actual acceptance/existing-gate resolution. |
 
-Cloud checks: build/TypeScript,65 units, PostgreSQL82, HTTP15, Python11; Node parents included. No new migration/dependency/service or native/model/market/notification call. Publication result is appended after verification.
+Cloud checks: build/TypeScript,65 units, PostgreSQL82, HTTP15, Python11; Node parents included. No new migration/dependency/service or native/model/market/notification call. Verified application publication: [41d7e90](https://github.com/Scmoran12/swing-trading-journal/commit/41d7e90ef09537be3dbd5eac48f9efe412b8989a). Documentation-only publication evidence follows; application code remains identical.
 
 ## Previous Phase7 journal-only slice
 

@@ -2283,12 +2283,12 @@ Revision2, updated17 October2026. User authorized Phase8 continuation and GitHub
 | P8-M2 protected readiness | IMPLEMENTED_HTTP_TESTED | Actual DB metadata plus conservative separate pending gates; no acceptance toggle/native activation. |
 | P8-M3 local hardening | IMPLEMENTED_CLOUD_TESTED | Role/host/port/name separation, no missing-test fallback, resolved private storage root, consistent version and source ignores. |
 | P8-M4 runbooks/update artifact | IMPLEMENTED | PHASE8_WINDOWS/LOCAL_RUNBOOK; no data downgrade, backup or automatic retention action. |
-| P8-M5 GitHub publication | AUTHORIZED_PENDING_REMOTE_VERIFICATION | Source-only commit/push after review, preserve remote history/agents and verify remote tree. |
+| P8-M5 GitHub publication | PUBLISHED_VERIFIED | main application commit41d7e90; fetched remote tree exactly matches verified source. Prior main history/six agents preserved; no forced update. |
 | Actual Windows/browser/native/device | PENDING/BLOCKED | Latest Windows report is automatedv0.2 only. No new entitlement/price/usage/schedule/receipt proof. |
 | Backup/restore/64GB drive | DEFERRED_UNVERIFIED | Explicit user deferral remains; untouched and not a passing release gate. |
 | Full Phase8/release | ACCEPTANCE_PENDING | Zero later numbered phases; remaining work is actual acceptance/existing-gate resolution. |
 
-Cloud checks: build/TypeScript,65 units, PostgreSQL82, HTTP15, Python11; Node parents included. No new migration/dependency/service or native/model/market/notification call. Publication result is appended after verification.
+Cloud checks: build/TypeScript,65 units, PostgreSQL82, HTTP15, Python11; Node parents included. No new migration/dependency/service or native/model/market/notification call. Verified application publication: [41d7e90](https://github.com/Scmoran12/swing-trading-journal/commit/41d7e90ef09537be3dbd5eac48f9efe412b8989a). Documentation-only publication evidence follows; application code remains identical.
 
 ### Previous Phase7 journal-only slice
 
@@ -2787,9 +2787,11 @@ Initial analytics integration attempt stopped on malformed synthetic fee'.3'; fi
 | Protected readiness/version | PASSED_CLOUD_ONLY | Owner/no-store/DB checks/sanitized output/darkRTL and source-version metadata; always ACCEPTANCE_PENDING regardless of local PASS. |
 | Regression | PASSED_CLOUD_ONLY | Production build/TypeScript;65 units; PG15+9+8+19+9+10+12=82; HTTP15; preservedPython11. No skipped/failed cloud cases. Node parents included. |
 | Actual Windows/native/recovery | UNRUN/BLOCKED/DEFERRED | No new OS/browser/ACL/model/data/billing/scheduling/receipt/phone evidence; backup/drive untouched. |
-| GitHub latest source | AUTHORIZED_PENDING_REMOTE_VERIFICATION | Existing public main history inspected; source-only update, exact remote result recorded after push. No public website deployment. |
+| GitHub latest source | PUBLISHED_VERIFIED | main application commit41d7e90, exact remote tree213b3c2120c693abe302d375198a0cd92625775b fetched and compared. Prior history/agents preserved, no forced update or public website deployment. |
 
 Full Phase8/overall release stays incompletely accepted. Zero later numbered development phases remain; next milestone actual Windows acceptance and resolution of earlier gates. Source-version/build tracing issue fixed; no dependency/migration changes or new audit claim.
+
+Verified application source commit: [41d7e90ef09537be3dbd5eac48f9efe412b8989a](https://github.com/Scmoran12/swing-trading-journal/commit/41d7e90ef09537be3dbd5eac48f9efe412b8989a). The connected GitHub account published through a non-forced, expected-head branch update because the local CLI credential was unusable. Subsequent documentation-only publication evidence does not change tested application code. Working source/private artifact checks passed; six agent definitions remain unchanged.
 
 Source: the user pasted the final summary from their local Windows Codex chat. This cloud chat has not inspected the original Windows logs or `docs/WINDOWS_ACCEPTANCE.md`. Preserve those local files and classify this record as **USER_REPORTED**, rather than a cloud rerun.
 

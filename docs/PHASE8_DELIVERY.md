@@ -25,4 +25,6 @@ The readiness integration suite verifies the real CLI, no configuration/ledger m
 
 The source-only cumulative Windows archive supports knownv0.2–v0.7 hashes and preserves local private configuration, native bridge/Phase0/agent files, Git history and newer local evidence. See PHASE8_WINDOWS.md and LOCAL_RUNBOOK.md. GitHub publication is authorized for the source project, with existing main history preserved and no forced update. Verify the final remote commit/tree rather than assuming a local commit means it was published.
 
+GitHub application publication verified: [41d7e90](https://github.com/Scmoran12/swing-trading-journal/commit/41d7e90ef09537be3dbd5eac48f9efe412b8989a) on **main**. The fetched remote tree exactly matched the verified local tree213b3c2120c693abe302d375198a0cd92625775b. Existing main history and six agents were preserved, without forcing a branch update. Only source/docs/tests were published; private/generated artifacts were excluded. This publication record is a documentation-only follow-up to that application commit.
+
 **Next milestone: Windows acceptance and resolution of the existing gates. Zero later numbered development phases remain. Phase8 and the overall release remain incompletely accepted until their actual gates pass or scope is explicitly changed; numbering does not remove that work.**
