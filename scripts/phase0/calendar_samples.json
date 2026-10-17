@@ -1,0 +1,21 @@
+{
+  "scope": "OFFLINE_SAMPLES_ONLY_NOT_A_PRODUCTION_CALENDAR",
+  "source": "https://www.nyse.com/trade/hours-calendars",
+  "reviewed_on": "2026-10-14",
+  "sessions": {
+    "2026-03-09": {"status": "OPEN", "close": "16:00"},
+    "2026-03-27": {"status": "OPEN", "close": "16:00"},
+    "2026-04-03": {"status": "CLOSED"},
+    "2026-10-13": {"status": "OPEN", "close": "16:00"},
+    "2026-10-14": {"status": "OPEN", "close": "16:00"},
+    "2026-10-26": {"status": "OPEN", "close": "16:00"},
+    "2026-11-02": {"status": "OPEN", "close": "16:00"},
+    "2026-11-26": {"status": "CLOSED"},
+    "2026-11-27": {"status": "OPEN", "close": "13:00"},
+    "2026-12-24": {"status": "OPEN", "close": "13:00"},
+    "2026-12-25": {"status": "CLOSED"},
+    "2026-12-31": {"status": "OPEN", "close": "16:00"},
+    "2027-01-01": {"status": "CLOSED"},
+    "2027-01-04": {"status": "OPEN", "close": "16:00"}
+  }
+}

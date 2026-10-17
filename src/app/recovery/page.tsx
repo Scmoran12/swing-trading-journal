@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Recovery(){return <main id="main-content" className="auth-page"><section className="panel auth-card"><h1>שחזור הגישה במחשב</h1><p className="muted">השחזור מתבצע בחשבון Windows שהגדיר את המערכת. אין איפוס סיסמה ציבורי או קישור במייל.</p><p>בתיקיית הפרויקט יש להריץ:</p><pre dir="ltr">npm.cmd run owner:recover</pre><p className="muted">השחזור מחליף את הסיסמה ומבטל את ההפעלות הקודמות. אין לשתף סיסמאות או את קובץ ההגדרות בצ׳אט.</p><Link className="text-link" href="/login">חזרה לכניסה</Link></section></main>;}

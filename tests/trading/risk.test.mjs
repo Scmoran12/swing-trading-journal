@@ -1,0 +1,5 @@
+import test from'node:test';import assert from'node:assert/strict';import{sizePlan,decimal}from'../../src/domain/trading/risk.mjs';
+const base={equity:'10000',cash:'10000',entry:'100',stop:'95',buyFee:'1',sellFee:'1',slippage:'0',riskFraction:'0.01',positionFraction:'0.2',exposureFraction:'0.8',sectorFraction:'0.4',cashBuffer:'0'};
+test('whole-share risk sizing includes both fee estimates and floors shares',()=>{const r=sizePlan(base);assert.equal(r.quantity,'19');assert.equal(r.modeledLoss,'97.00000000');});
+test('cash, sector and zero-cap limits never round up',()=>{assert.equal(sizePlan({...base,cash:'100',cashBuffer:'10'}).quantity,'0');assert.equal(sizePlan({...base,sectorExposure:'3900'}).quantity,'1');assert.equal(sizePlan({...base,slippage:'1'}).quantity,'16');});
+test('invalid decimals and stop/slippage inputs reject',()=>{for(const v of['NaN','Infinity','1e5','-1',1])assert.throws(()=>decimal(v));assert.throws(()=>sizePlan({...base,stop:'100'}));assert.throws(()=>sizePlan({...base,slippage:'95'}));});

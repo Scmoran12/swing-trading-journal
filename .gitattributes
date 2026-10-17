@@ -1,0 +1,3 @@
+# Preserve the original uploaded requirements and Windows launcher byte endings.
+docs/INPUT_REQUIREMENTS.md -text whitespace=cr-at-eol
+scripts/windows/Start-SwingPilot.cmd -text whitespace=cr-at-eol

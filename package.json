@@ -1,0 +1,41 @@
+{
+  "name": "swingpilot-ai",
+  "version": "0.8.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/local/run.mjs dev",
+    "build": "node scripts/local/run.mjs build",
+    "start": "node scripts/local/run.mjs start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/foundation/*.test.mjs tests/security/*.test.mjs tests/trading/*.test.mjs tests/market/*.test.mjs tests/ai/*.test.mjs tests/monitoring/*.test.mjs tests/notifications/*.test.mjs tests/analytics/*.test.mjs tests/readiness/*.test.mjs",
+    "test:database": "node scripts/testing/run-database.mjs database",
+    "db:migrate": "node scripts/local/run.mjs migrate",
+    "local:setup": "node scripts/local/setup.mjs",
+    "owner:recover": "node scripts/local/setup.mjs --recover",
+    "local:test:setup": "node scripts/local/setup.mjs --test",
+    "local:test:start": "node scripts/local/run.mjs start --test",
+    "test:http": "node scripts/testing/run-database.mjs http",
+    "local:doctor": "node scripts/local/doctor.mjs",
+    "desktop:test": "node scripts/local/desktop-test.mjs"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "8.0.1",
+    "argon2": "0.45.1",
+    "decimal.js": "10.6.0",
+    "next": "16.4.0",
+    "next-auth": "5.0.0-beta.32",
+    "pg": "8.23.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "5.9.3"
+  }
+}
